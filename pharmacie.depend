@@ -1,0 +1,271 @@
+# depslib dependency file v1.0
+1620324527 source:c:\users\hp\documents\code blocks\pharmacie\src\date.cpp
+	<iostream>
+	"date.h"
+
+1620495986 c:\users\hp\documents\code blocks\pharmacie\include\date.h
+
+1620580591 source:c:\users\hp\documents\code blocks\pharmacie\src\produit.cpp
+	<iostream>
+	<produit.h>
+	"date.h"
+
+1620497427 c:\users\hp\documents\code blocks\pharmacie\include\produit.h
+	<iostream>
+	"date.h"
+	<string>
+
+1620681371 source:c:\users\hp\documents\code blocks\pharmacie\main.cpp
+	<iostream>
+	"date.h"
+	"produit.h"
+	"medicament.h"
+	"prodpara.h"
+	"patient.h"
+	"fournisseur.h"
+	"lignecommandep.h"
+	"vente.h"
+	"lignecommandef.h"
+	"achat.h"
+	"pharmacie.h"
+
+1620335011 source:c:\users\hp\documents\code blocks\pharmacie\src\medicament.cpp
+	<iostream>
+	"medicament.h"
+	"produit.h"
+
+1620335011 c:\users\hp\documents\code blocks\pharmacie\include\medicament.h
+	"produit.h"
+
+1620336031 source:c:\users\hp\documents\code blocks\pharmacie\src\prodpara.cpp
+	<iostream>
+	"produit.h"
+	"prodpara.h"
+
+1620336049 c:\users\hp\documents\code blocks\pharmacie\include\prodpara.h
+	<produit.h>
+
+1620512796 c:\users\hp\documents\code blocks\pharmacie\include\patient.h
+	<iostream>
+	<string>
+
+1620337030 source:c:\users\hp\documents\code blocks\pharmacie\src\patient.cpp
+	<iostream>
+	<string>
+	"patient.h"
+
+1620338572 source:c:\users\hp\documents\code blocks\pharmacie\src\fournisseur.cpp
+	<iostream>
+	<string>
+	"fournisseur.h"
+
+1620338572 c:\users\hp\documents\code blocks\pharmacie\include\fournisseur.h
+	<patient.h>
+
+1620583691 c:\users\hp\documents\code blocks\pharmacie\include\lignecommandep.h
+	"produit.h"
+
+1620583691 source:c:\users\hp\documents\code blocks\pharmacie\src\lignecommandep.cpp
+	<iostream>
+	<string>
+	"lignecommandep.h"
+	"produit.h"
+
+1620594490 c:\users\hp\documents\code blocks\pharmacie\include\vente.h
+	<vector>
+	"patient.h"
+
+1620594490 source:c:\users\hp\documents\code blocks\pharmacie\src\vente.cpp
+	<iostream>
+	"patient.h"
+	"date.h"
+	"lignecommandep.h"
+	<vector>
+	"vente.h"
+
+1620341430 c:\users\hp\documents\code blocks\pharmacie\include\lignecommandef.h
+	<produit.h>
+
+1620497618 source:c:\users\hp\documents\code blocks\pharmacie\src\lignecommandef.cpp
+	<iostream>
+	"lignecommandef.h"
+	"produit.h"
+
+1620583691 c:\users\hp\documents\code blocks\pharmacie\include\achat.h
+	<string>
+	<vector>
+	"fournisseur.h"
+	"lignecommandef.h"
+
+1620430330 source:c:\users\hp\documents\code blocks\pharmacie\src\achat.cpp
+	<iostream>
+	<string>
+	<vector>
+	"fournisseur.h"
+	"lignecommandef.h"
+	"lignecommandep.h"
+	"achat.h"
+	"date.h"
+
+1620495855 c:\users\hp\documents\code blocks\pharmacie\include\pharmacie.h
+	<iostream>
+	<string>
+	<vector>
+	<produit.h>
+	<patient.h>
+	"date.h"
+
+1620512810 source:c:\users\hp\documents\code blocks\pharmacie\src\pharmacie.cpp
+	"pharmacie.h"
+
+1620928553 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\achat.cpp
+	<iostream>
+	<istream>
+	<ostream>
+	<string>
+	<vector>
+	"fournisseur.h"
+	"lignecommandef.h"
+	"lignecommandep.h"
+	"achat.h"
+	"date.h"
+
+1620926076 c:\users\hp\documents\code blocks\pharmacie(1)\include\fournisseur.h
+	<iostream>
+	<istream>
+	<ostream>
+	<patient.h>
+
+1620924326 c:\users\hp\documents\code blocks\pharmacie(1)\include\patient.h
+	<iostream>
+	<string>
+
+1620927529 c:\users\hp\documents\code blocks\pharmacie(1)\include\lignecommandef.h
+	<produit.h>
+
+1620922567 c:\users\hp\documents\code blocks\pharmacie(1)\include\produit.h
+	<iostream>
+	<ostream>
+	<istream>
+	"date.h"
+	<string>
+
+1620922186 c:\users\hp\documents\code blocks\pharmacie(1)\include\date.h
+
+1620925924 c:\users\hp\documents\code blocks\pharmacie(1)\include\lignecommandep.h
+	"produit.h"
+
+1620928366 c:\users\hp\documents\code blocks\pharmacie(1)\include\achat.h
+	<string>
+	<vector>
+	"fournisseur.h"
+	"lignecommandef.h"
+
+1620921919 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\date.cpp
+	<iostream>
+	"date.h"
+	<istream>
+	<ostream>
+
+1620926000 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\fournisseur.cpp
+	<iostream>
+	<string>
+	<istream>
+	<ostream>
+	"fournisseur.h"
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\lignecommandef.cpp
+	<iostream>
+	"lignecommandef.h"
+	"produit.h"
+	<istream>
+	<ostream>
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\lignecommandep.cpp
+	<iostream>
+	<string>
+	"lignecommandep.h"
+	"produit.h"
+	<istream>
+	<ostream>
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\medicament.cpp
+	<iostream>
+	<istream>
+	<ostream>
+	"medicament.h"
+	"produit.h"
+	"pharmacie.h"
+
+1620923721 c:\users\hp\documents\code blocks\pharmacie(1)\include\medicament.h
+	"produit.h"
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\patient.cpp
+	<iostream>
+	<string>
+	"patient.h"
+	<istream>
+	<ostream>
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\pharmacie.cpp
+	"pharmacie.h"
+	<algorithm>
+	<istream>
+	<ostream>
+
+1620921024 c:\users\hp\documents\code blocks\pharmacie(1)\include\pharmacie.h
+	<iostream>
+	<string>
+	<vector>
+	<produit.h>
+	"medicament.h"
+	"prodpara.h"
+	<patient.h>
+	"date.h"
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\prodpara.cpp
+	<iostream>
+	"produit.h"
+	"prodpara.h"
+	<istream>
+	<ostream>
+
+1620924065 c:\users\hp\documents\code blocks\pharmacie(1)\include\prodpara.h
+	<produit.h>
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\produit.cpp
+	<iostream>
+	<produit.h>
+	"date.h"
+	<istream>
+	<ostream>
+
+1620928682 source:c:\users\hp\documents\code blocks\pharmacie(1)\src\vente.cpp
+	<iostream>
+	"patient.h"
+	"date.h"
+	"lignecommandep.h"
+	<vector>
+	"vente.h"
+	<istream>
+	<ostream>
+
+1620926921 c:\users\hp\documents\code blocks\pharmacie(1)\include\vente.h
+	<vector>
+	"patient.h"
+
+1620924498 source:c:\users\hp\documents\code blocks\pharmacie(1)\main.cpp
+	<iostream>
+	"date.h"
+	"produit.h"
+	"medicament.h"
+	"prodpara.h"
+	"patient.h"
+	"fournisseur.h"
+	"lignecommandep.h"
+	"vente.h"
+	"lignecommandef.h"
+	"achat.h"
+	"pharmacie.h"
+	<vector>
+

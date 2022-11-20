@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="pharmacie" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/pharmacie" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/pharmacie" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/achat.h" />
+		<Unit filename="include/date.h" />
+		<Unit filename="include/fournisseur.h" />
+		<Unit filename="include/lignecommandef.h" />
+		<Unit filename="include/lignecommandep.h" />
+		<Unit filename="include/medicament.h" />
+		<Unit filename="include/patient.h" />
+		<Unit filename="include/pharmacie.h" />
+		<Unit filename="include/prodpara.h" />
+		<Unit filename="include/produit.h" />
+		<Unit filename="include/vente.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/achat.cpp" />
+		<Unit filename="src/date.cpp" />
+		<Unit filename="src/fournisseur.cpp" />
+		<Unit filename="src/lignecommandef.cpp" />
+		<Unit filename="src/lignecommandep.cpp" />
+		<Unit filename="src/medicament.cpp" />
+		<Unit filename="src/patient.cpp" />
+		<Unit filename="src/pharmacie.cpp" />
+		<Unit filename="src/prodpara.cpp" />
+		<Unit filename="src/produit.cpp" />
+		<Unit filename="src/vente.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
